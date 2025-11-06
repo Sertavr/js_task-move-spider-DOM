@@ -27,7 +27,7 @@ document.addEventListener('click', (e) => {
   }
 
   if (e.clientX > rightX - spider.clientWidth) {
-    centerX = wall.clientWidth - spider.clientHeight;
+    centerX = wall.clientWidth - spider.clientWidth;
   }
 
   if (e.clientY > bottomY - spider.clientHeight) {
