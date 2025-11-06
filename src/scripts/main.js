@@ -26,11 +26,11 @@ document.addEventListener('click', (e) => {
     spiderY = 0;
   }
 
-  if (e.clientX > rightX - spider.clientWidth) {
+  if (e.clientX > rightX - spider.clientWidth / 2) {
     spiderX = wall.clientWidth - spider.clientWidth;
   }
 
-  if (e.clientY > bottomY - spider.clientHeight) {
+  if (e.clientY > bottomY - spider.clientHeight / 2) {
     spiderY = wall.clientHeight - spider.clientHeight;
   }
 
